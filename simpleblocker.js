@@ -1,3 +1,8 @@
+// ---
+// Coded by: https://odd.rip
+// Get it now: https://github.com/OddDevelopment/Simple-Adblock-Detector
+// ---
+
 const outbrainErrorCheck = async () => {
     try {
         const resp = await fetch("https://widgets.outbrain.com/outbrain.js");
