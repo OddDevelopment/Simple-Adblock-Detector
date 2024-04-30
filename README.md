@@ -1,7 +1,7 @@
-# Simple Adblock Detector
+## Simple Adblock Detector
 Detect ad blockers with 1 line of code
 
-Tested with:
+**Currently detects:**
 - [AdBlock](https://chromewebstore.google.com/detail/gighmmpiobklfepjocnamgkkbiglidom)
 - [Adblock Plus](https://chromewebstore.google.com/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
 - [Brave](https://brave.com/learn/category/ad-blocker/)
@@ -11,16 +11,32 @@ Tested with:
 - [Ghostery](https://chromewebstore.google.com/detail/ghostery-tracker-ad-block/mlomiejdfkolichcflejclcbmpeaniij)
 - [Anti Adblock Detector](https://chromewebstore.google.com/detail/anti-adblock-detector/kjhdffcfinhkdfbbhjlfoadcdfgihmlp) (w/ [AdBlock](https://chromewebstore.google.com/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom))
 
-## How to setup right now
-1. Add the detectors code by making a js file with a ranodm name that has [simpleblocker.js](https://github.com/OddDevelopment/Simple-Adblock-Detector/blob/main/simpleblocker.js)'s code in it should be something like random numbers do not mention ad block in the file name or it could get blocked by ad blockers
-2. Add it to your site, On the page you want to block ad blockers add the following code **MAKE SURE to replace the file name with yours**:
+## Try it out:
+https://odddevelopment.github.io/Simple-Adblock-Detector/
 
-```
-<script src="myrandomfilename.js"></script>
-```
+## How to Setup Right Now
 
-3. Setup the page it redirects the user to. This one is up to you, When an adblock is detected it redirects the user to `./disable-adblock` (ex. `https://example.com/disable-adblock`) you can put whatever you want here, The users with ad block on to see whats on this page.
-4. Now test it out! If you have any issues get help on the [issues](https://github.com/OddDevelopment/Simple-Adblock-Detector/issues) page
-5. Leave a ⭐ star if this helped you out <3
+1. **Add Detector Code:**
+   - Create a JavaScript file with a random name.
+   - Make the content of the file [simpleblocker.js](https://github.com/OddDevelopment/Simple-Adblock-Detector/blob/main/simpleblocker.js)'s code.
+   - Avoid mentioning "ad block" in the file name to prevent it from being blocked by ad blockers.
+
+2. **Integrate into Your Site:**
+   - Add the following code on page where ad blockers should be detected:
+     ```html
+     <script src="myrandomfilename.js"></script>
+     ```
+   - Replace "myrandomfilename.js" with your file name.
+
+3. **Configure Redirect Page:**
+   - Setup the page people get directed to.
+   - Users are redirected to `./disable-adblock` (ex. `https://example.com/disable-adblock`) on this page you can put what you want people with ad blockers to see.
+
+4. **Testing:**
+   - Test it out!
+   - If you have any issues/feedback, get help on the [issues](https://github.com/OddDevelopment/Simple-Adblock-Detector/issues) page.
+
+5. **Support Us:** (its free <3)
+   - If you find this project helpful, consider leaving a ⭐Star as a token of appreciation.
 
 ![star](https://github.com/OddDevelopment/Simple-Adblock-Detector/assets/135460135/4f613e15-23a2-4099-99b6-55e9a0cce3f8)
