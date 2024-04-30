@@ -12,7 +12,9 @@ Detect ad blockers with 1 line of code
 - [Anti Adblock Detector](https://chromewebstore.google.com/detail/anti-adblock-detector/kjhdffcfinhkdfbbhjlfoadcdfgihmlp) (w/ [AdBlock](https://chromewebstore.google.com/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom))
 
 ## Try it out:
-https://odddevelopment.github.io/Simple-Adblock-Detector/
+<img src="https://github.com/OddDevelopment/Simple-Adblock-Detector/assets/135460135/0810f962-8fae-4f93-9e45-7a3424c2211a" alt="demo" width="500">
+
+Demo: https://odddevelopment.github.io/Simple-Adblock-Detector/
 
 ## How to Setup Right Now
 
